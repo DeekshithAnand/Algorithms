@@ -3,8 +3,7 @@ basic algorithms from scratch using C++/Python
 
 To execute the prorams. simply clone this repo to your
 local machine using the following command:
-"git  clone  https://github.com/DeekshithAnand/Algorithms.git  \
-[Whatever-subdirectory-optional]"
+"git  clone  https://github.com/DeekshithAnand/Algorithms"
 
 Since the repo contains only code, you have to locally build the code using appropriate compiler and execute 
 accordingly.
