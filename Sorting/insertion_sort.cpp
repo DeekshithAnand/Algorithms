@@ -1,4 +1,4 @@
-#include "pname.h"
+#include "../pname.h"
 #include<vector>
 #include<algorithm>
 void isort(vector<int> &arr)
