@@ -1,12 +1,13 @@
-This is a experimental repository created to practice the basic git skills along with the implementation of some
-basic algorithms from scratch using C++/Python
+# Basic Data Structures and Algorithms
+Repository having implementations of basic data structures and algorithms either in cpp or python!
 
-To execute the prorams. simply clone this repo to your
+To execute the prorgams. simply clone this repo to your
 local machine using the following command:
 "git  clone  https://github.com/deekshithanand/Algorithms_and_DataStructures.git"
 
-Since the repo contains only code, you have to locally build the code using appropriate compiler and execute 
-accordingly.
-
 Happy Coding!
+
+## Author
+Deekshith Anand
+
 
