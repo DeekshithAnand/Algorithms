@@ -23,6 +23,7 @@ int main(int argc, char const *argv[])
     int tmp;
     int ele;
     vector<int> a;
+    cout<<"Enter elements:";
     cin>>tmp;
     for(int i=0;i<tmp;i++)
     {
@@ -32,13 +33,7 @@ int main(int argc, char const *argv[])
     }
     isort(a);
     //display
-    for(int i=0;i<tmp;i++)
-    {
-       
-        {
-            cout<<a[i]<<endl;
-        }
-    }
-
+   for(auto i:a)
+   cout<<i<<" ";
     return 0;
 }
