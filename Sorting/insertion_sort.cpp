@@ -1,39 +1,39 @@
-#include "../pname.h"
-#include<vector>
+#include<iostream>
 #include<algorithm>
-void isort(vector<int> &arr)
-{
-    int limit=arr.size();
-    for(int i = 1; i < limit ;i++)
-    {
-        for(int j = i; j>0 ; j--)
+#include<vector>
+
+using namespace std;
+#define lli long long int
+#define li long int
+#define pb push_back
+#define mp make_pair
+#define vi vector<int>
+#define rep(a,b,c)  for(int a=b;a<c;a++)
+#define repr(a,b,c) for(int a =b ;a>c;a--)
+void isort(vi &a){
+    int limit=a.size();
+    int key;
+    rep(i,1,limit){
+        key=a[i];
+        int j=i-1;
+        while(j>=0 && a[j]>key)
         {
-            if(arr[j]<arr[j-1])
-            {
-                swap(arr[j],arr[j-1]);
-            }
+            a[j+1]=a[j];
+            --j;
 
         }
-    }
-}
-//driver code
-int main(int argc, char const *argv[])
-{
-    cout<<"Enter size:"<<endl;
-    int tmp;
-    int ele;
-    vector<int> a;
-    cout<<"Enter elements:";
-    cin>>tmp;
-    for(int i=0;i<tmp;i++)
-    {
-        cin>>ele;
-        a.push_back(ele);
+        a[j+1]=key;
 
     }
+}
+
+int main(int argc, char const *argv[])
+{
+    vi a;
+    repr(i,10,0){
+    a.pb(i);}
     isort(a);
-    //display
-   for(auto i:a)
-   cout<<i<<" ";
+    for(auto i:a)cout<<i<<" "<<endl;
     return 0;
 }
+

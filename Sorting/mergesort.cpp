@@ -12,7 +12,22 @@ using namespace std;
 #define rep(a,b,c)  for(int a=b;a<c;a++)
 #define repr(a,b,c) for(int a =b ;a>c;a--)-)
 
+void merge(vi &arr,int l,int m,int n){
 
+    
+
+
+}
+
+void msort(vi &arr,int l,int n){
+    if(l<=n)
+    {
+        int m=(l+n)/2;
+        msort(arr,l,n);
+        msort(arr,m+1,n);
+        merge(arr,l,m,n);
+    }
+}
 
 int main(int argc, char const *argv[])
 {

@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
+//bubble sort main logic
 void bsort(vector<int> &a,int &maxsize)
 {
     for(int i=0;i<maxsize-1;i++)
