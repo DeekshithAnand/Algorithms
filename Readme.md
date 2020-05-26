@@ -1,12 +1,8 @@
 # Basic Data Structures and Algorithms
-Repository having implementations of basic data structures and algorithms either in cpp or python!
 
-To execute the prorgams. simply clone this repo to your
-local machine using the following command:
-"git  clone  https://github.com/deekshithanand/Algorithms_and_DataStructures.git"
+Repo maintained for coding practice on PSDS arena and part of my 100 days of code challenge!
 
 Happy Coding!
-
 ## Author
 Deekshith Anand
 
