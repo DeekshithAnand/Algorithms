@@ -12,7 +12,7 @@ void solve(){
     cin >> N;
     int SUM ;
     cin >> SUM;
-    vector<int> arr(N);
+    vector<int> arr;
     for(int i = 0; i< N; i++){
         int tmp;
         cin >> tmp;
@@ -31,7 +31,7 @@ void solve(){
         else{
             win.sum+= arr[i];
             win.end++;
-            if(win.sum > SUM){
+            while(win.sum > SUM){
                 win.sum-=arr[win.start];
                 win.start++;
 
@@ -40,7 +40,7 @@ void solve(){
     }
 
     if(win.sum == SUM) {
-        cout << win.start << " "<< win.end<<endl;
+        cout << win.start+1 << " "<< win.end+1<<endl;
     }
     else {
         cout << -1;
