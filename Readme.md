@@ -1,6 +1,6 @@
 # Basic Data Structures and Algorithms
 
-Repo maintained for coding practice on PSDS arena and part of my 100 days of code challenge!
+Repo maintained for coding practice on PSDS arena 
 
 Happy Coding!
 ## Author
